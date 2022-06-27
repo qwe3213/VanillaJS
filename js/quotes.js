@@ -41,10 +41,10 @@ const quotes = [
     },
     ];
 
-    const quote= document.querySelector("#quotes span:first-child");
-    const author=document.querySelector("#quotes span:last-child");
+    const quote= document.querySelector("#quote span:first-child");
+    const author=document.querySelector("#quote span:last-child");
 
-    const todaQuote=(quotes[Math.floor(Math.random()*quotes.length)]);
+    const todayQuote=(quotes[Math.floor(Math.random()*quotes.length)]);
 
-    quote.innerText=todaQuote.quote;
-    author.innerText=todaQuote.author; 
+    quote.innerText=todayQuote.quote;
+    author.innerText=todayQuote.author; 
